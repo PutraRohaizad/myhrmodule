@@ -1,0 +1,1 @@
+wqeqwewq<?php /**PATH /Applications/XAMPP/xamppfiles/htdocs/hrms_v2/Modules/Table/Resources/views/index2.blade.php ENDPATH**/ ?>

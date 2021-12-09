@@ -1,0 +1,13 @@
+{
+    "name": "Avs",
+    "alias": "avs",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Avs\\Providers\\AvsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

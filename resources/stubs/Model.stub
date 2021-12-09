@@ -1,0 +1,12 @@
+<?php
+
+namespace Modules\{{modelName}}\Entities;
+
+use Illuminate\Database\Eloquent\Model;
+
+class {{modelName}} extends Model
+{
+    protected $table = "{{modelNamePluralLowerCase}}";
+    protected $guarded = [];
+
+}

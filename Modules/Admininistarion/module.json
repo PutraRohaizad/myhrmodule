@@ -1,0 +1,13 @@
+{
+    "name": "Admininistarion",
+    "alias": "admininistarion",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Admininistarion\\Providers\\AdmininistarionServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

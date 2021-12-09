@@ -1,0 +1,22 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+
+Route::prefix('{{modelName}}')->group(function() {
+    Route::resource('/',{{modelNameUpperCase}}Controller::class);
+    Route::get('/list','{{modelNameUpperCase}}Controller@list')->name('{{modelName}}.list');
+    Route::get('/list_update','{{modelNameUpperCase}}Controller@list_update')->name('{{modelName}}.list_update');
+    Route::get('/list_add','{{modelNameUpperCase}}Controller@list_add')->name('{{modelName}}.list_add');
+});
